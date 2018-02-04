@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="9px"
+    android:paddingLeft="9px"
+    android:paddingRight="9px"
+    android:paddingTop="9px"
+    tools:context="com.example.hieu.playcarddemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:id="@+id/layoutImage"
+        android:layout_below="@+id/imgOpen"
+        android:layout_marginTop="50px">
+
+        <LinearLayout
+            android:layout_width="234px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:id="@+id/img1"
+                android:src="@drawable/question_mark_xxl"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtImgName1"
+                android:textAlignment="center"
+                android:textSize="30px"
+                android:layout_marginTop="10px"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="234px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:id="@+id/img2"
+                android:src="@drawable/question_mark_xxl"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtImgName2"
+                android:textAlignment="center"
+                android:textSize="30px"
+                android:layout_marginTop="10px"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="234px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:id="@+id/img3"
+                android:src="@drawable/question_mark_xxl"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtImgName3"
+                android:textAlignment="center"
+                android:textSize="30px"
+                android:layout_marginTop="10px"
+                android:text=""/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgOpen"
+        android:src="@drawable/question_mark_xxl"/>
+
+</RelativeLayout>
